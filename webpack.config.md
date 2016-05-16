@@ -1,6 +1,6 @@
 ##webpack常用配置
 
-'''javascript
+```javascript
 var webpack            = require('webpack');
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 var ExtractTextPlugin  = require('extract-text-webpack-plugin');
@@ -103,4 +103,4 @@ module.exports = {
         //...
     }
 };
-'''
+```
