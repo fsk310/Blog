@@ -5,10 +5,10 @@
 var ProxySingleton = (function  () {
     var instance;
     return function  (obj) {        // 这里使用了闭包的一些特性
-            if(!instance){
-                instance = new Singleton(obj);
-            }
-            return instance;
+        if(!instance){
+            instance = new Singleton(obj);
+        }
+        return instance;
     }
 })();
 ```
