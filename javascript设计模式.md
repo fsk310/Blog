@@ -88,3 +88,7 @@ var director = (function () {
     }
 });
 ```
+
+本文知识点及理解来自简书作者
+--颜卿今天Coding了吗 的《js设计模式系列文章》
+--http://www.jianshu.com/users/e343d00ee6f6/latest_articles
